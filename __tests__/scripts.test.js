@@ -24,6 +24,11 @@ describe("AgeCalculator", () => {
 
   test("should correctly calculate the years you have left on each planet", () => {
     const calculator = new AgeCalculator(10);
-    expect(calculator.yearsLeftOnPlanets()).toEqual({"Earth": 63, "Mercury": 15.12, "Venus": 39.06, "Mars": 118.44, "Jupiter": 747.18});
+    expect(calculator.yearsLeftOnPlanets()).toEqual(new Map([["Earth", "63 years left" ], ["Mercury", "15.12 years left"], ["Venus", "39.06 years left"], ["Mars", "118.44 years left"], ["Jupiter", "747.18 years left"]]));
+  });
+
+  test("should correctly calculate the years you have lived past life expectancy on each planet", () => {
+    const calculator = new AgeCalculator(100);
+    expect(calculator.yearsLeftOnPlanets()).toEqual(new Map([["Earth", "27 years past"], ["Mercury", "6.4799999999999995 years past"], ["Venus", "16.74 years past"], ["Mars", "50.76 years past"], ["Jupiter", "320.21999999999997 years past"]]));
   });
 });
