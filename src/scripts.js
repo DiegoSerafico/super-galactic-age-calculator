@@ -14,4 +14,8 @@ export class AgeCalculator {
   getAgeOnMars() {
     return this.age * 1.88;
   }
+
+  getAgeOnJupiter() {
+    return this.age * 11.86;
+  }
 }
