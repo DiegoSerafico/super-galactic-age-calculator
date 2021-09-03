@@ -18,4 +18,8 @@ export class AgeCalculator {
   getAgeOnJupiter() {
     return this.age * 11.86;
   }
+
+  // yearsLeftOnPlanets() {
+  //   let lifeExpectancy = 73;
+  // }
 }

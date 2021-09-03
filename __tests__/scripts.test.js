@@ -21,4 +21,9 @@ describe("AgeCalculator", () => {
     const calculator = new AgeCalculator(1);
     expect(calculator.getAgeOnJupiter()).toEqual(11.86);
   });
+
+  test("should correctly calculate the years you have left on each planet", () => {
+    const calculator = new AgeCalculator(10);
+    expect(calculator.yearsLeftOnPlanets()).toEqual({"Earth": 63, "Mercury": 15.12, "Venus": 39.06, "Mars": 118.44, "Jupiter": 747.18});
+  });
 });
