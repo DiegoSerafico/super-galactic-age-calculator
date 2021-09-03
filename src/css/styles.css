@@ -1,3 +1,44 @@
 body {
-  background-color: azure;
+  background-color: #1c2851;
+}
+
+#output {
+  display: none;
+}
+
+.container {
+  background-color: #49636b;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  background-color: #ffc74a;
+}
+
+#age-calculator-form {
+  background-color: #f5a063;
+  border: 1px solid black;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+.btn {
+  background-color: rgb(99, 34, 34);
+  color: azure;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+#output {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f39959;
+  color: azure;
 }

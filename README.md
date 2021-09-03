@@ -1,31 +1,38 @@
-# (Application Name)
+# _Super Galactic Age Calculator_
 
-#### (Brief Description of Application)
+#### _Gives you age in other planets in our solar system_
 
-#### By (Your Name Here)
+#### _**By Diego Serafico**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _Markdown_
+* _JavaScript_
 
 ## Description
 
+_In this page you are asked to enter your age. When you press submit, it calculates your age in different planets in our solar system and displays the results. It also displays the years you have left to live according to the avarage life expectancy on earth._
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository_
+* _Navigate to the root directory of the repository_
+* _type npm install into the terminal (make sure youre in the root directory)_
+* _type npm start_
+* _input age_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _N/A_
 
 ## License
 
+_[MIT](https://opensource.org/licenses/MIT)_
+
+Copyright (c) 2021 Diego Serafico
+
 ## Contact Information
+
+_Diego Serafico **dseraficohernandez@gmail.com**_

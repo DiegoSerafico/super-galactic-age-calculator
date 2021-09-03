@@ -4,19 +4,24 @@
   <title>Super Galactic Age Calculator</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container min-vh-100">
     <div class="jumbotron">
       <h1>Super Galactic Age Calculator</h1>
     </div>
     <form id="age-calculator-form">
-      <label for="ageInput">Please enter your age</label>
-      <input id="ageInput" type="number" min="1">
-
+      <div class="form-group">
+        <label for="ageInput">Please enter your age </label>
+        <input id="ageInput" type="number" min="1">
+      </div>
       <button type="submit" class="btn">Submit</button>
     </form>
 
     <div id="output">
-      
+      <p>Your age in Mercury is: <span id="ageInMercury"></span> years old.</p>
+      <p>Your age in Venus is: <span id="ageInVenus"> years old.</span> years old.</p>
+      <p>Your age in Mars is: <span id="ageInMars"></span> years old.</p>
+      <p>Your age in Jupiter is: <span id="ageInJupiter"></span> years old.</p>
+      <p>Here's how many years you have left on these planets: <span id="yearsLeft"></span></p>
     </div>
   </div>
 </body>
