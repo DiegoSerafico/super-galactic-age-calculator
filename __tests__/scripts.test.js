@@ -31,4 +31,9 @@ describe("AgeCalculator", () => {
     const calculator = new AgeCalculator(100);
     expect(calculator.yearsLeftOnPlanets()).toEqual(new Map([["Earth", "27 years past"], ["Mercury", "6.4799999999999995 years past"], ["Venus", "16.74 years past"], ["Mars", "50.76 years past"], ["Jupiter", "320.21999999999997 years past"]]));
   });
+
+  // test("should correctly calculate your next birthday", () => {
+  //   const calculator = new AgeCalculator(10);
+  //   expect(calculator.getBirthdays()).toEqual(new Map([["Earth", ""], ["Mercury", ""], ["Venus", ""], ["Mars", ""], ["Jupiter", ""]]));
+  // });
 });

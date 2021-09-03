@@ -1,4 +1,4 @@
-export class AgeCalculator {
+export default class AgeCalculator {
   constructor(age) {
     this.age = age;
     this.planetConversionRates = new Map([["Earth", 1], ["Mercury", 0.24], ["Venus", 0.62], ["Mars", 1.88], ["Jupiter", 11.86]]);
